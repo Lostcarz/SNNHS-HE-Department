@@ -1,0 +1,186 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>SNNHS</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/Logo-removebg-preview (1).png" alt=""></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="statement">
+                <h1>Sto. Nino National Highschool (HE Department)</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolorum voluptatum temporibus nisi libero ab quo necessitatibus earum beatae veniam, facere iure, suscipit quis cum explicabo. Porro dolore rem alias.</p>
+                <a href="" class="hero-btn">Visit us to know more!</a>
+            </div>
+</div>
+        </section>
+
+
+
+<section class="two">
+    <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="slider/Ayaka (1).png" alt=""></div>
+              <div class="swiper-slide"><img src="slider/Ayaka (2).png" alt=""></div>
+              <div class="swiper-slide"><img src="slider/Ayaka (3).png" alt=""></div>
+              <div class="swiper-slide"><img src="slider/Ayaka (4).png" alt=""></div>
+            
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+ 
+</section>
+
+
+<section class="course">
+    <h1>HE Courses</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Bread and Pastries Production (BPP)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="course-col">
+            <h3>Food and Beverage Services(FBS)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        
+    </div>
+
+</section>
+
+<section class="campus">
+<h1>Our Campus</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/School.jpg" alt="">
+        <div class="layer">
+            <h3>Marikina City</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/Snnhs.jpg" alt="">
+        <div class="layer">
+            <h3>Marikina City</h3>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="facility">
+<h1>Our Facilitiy</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+<div class="row">
+    <div class="facility-col">
+        <img src="slider/Ayaka (2).png" alt="">
+        <h3>BPP Facility</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="facility-col">
+        <img src="slider/Ayaka (3).png" alt="">
+        <h3>FBS Facility</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</div>
+</section>
+
+
+<section class="testimonials">
+    <h1>What our students says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="slider/Ayaka (3).png" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>John John</h3>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h1>Enroll for our Hands-on and <br> Informative HE courses</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-envelope"></i>
+    <i class="fa fa-phone"></i>
+    <p>Made by Grade 12 ICT Students in SNNHS</p>
+</div>
+</section>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script>
+
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay:3000,
+        disableOnInteraction: false,
+    },
+  loop: true,
+
+ 
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+ 
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+ 
+});
+
+   </script>
+
+   <script>
+    var navLinks = document.getElementById("nav-links");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   </script>
+    </body>    
+    </html>
